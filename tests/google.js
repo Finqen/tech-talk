@@ -19,7 +19,7 @@ const {
     textBox,
     evaluate
 } = require('taiko');
-
+const assert = require("assert");
 step("Open Google", async function () {
     await goto('https://google.com');
 });
